@@ -3,16 +3,16 @@ import './sidebar.css'
 function Sidebar() {
   return (
     <aside className="sidebar">
-      <h2>Mi web</h2>
+      <h2>MI WEB</h2>
 
       <nav>
-        <a href="#">inicio</a>
-        <a href="#">post</a>
-        <a href="#">galeria</a>
-        <a href="#">about</a>
+        <a href="#">INICIO</a>
+        <a href="#">POST</a>
+        <a href="#">GALERIA</a>
+        <a href="#">ABOUT</a>
       </nav>
     </aside>
   );
 }
 
-export default Sidebar;
+export default Sidebar; 

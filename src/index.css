@@ -57,6 +57,7 @@ body {
   background-position: center;
   position: relative;
   filter: contrast(1.1),brightness(0.9);
+  background-attachment: fixed;
 }
 
 /* capa oscura base */

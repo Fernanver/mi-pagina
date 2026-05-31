@@ -1,0 +1,17 @@
+.content {
+  margin-right: 260px;
+
+  padding: 40px;
+
+  min-height: 200vh;
+}
+
+
+.content h1 {
+    background: rgb(255, 0, 0);
+    color: white;
+    padding: 20px;
+    width: 500px;
+    backdrop-filter: blur(10px);
+
+}
