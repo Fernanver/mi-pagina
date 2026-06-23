@@ -1,0 +1,21 @@
+.content {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+ 
+.content nav {
+  background: rgba(0, 0, 0, 0.20);
+  color: white;
+  padding: 40px;
+  margin-right: 260px;
+  backdrop-filter: blur(10px);
+  box-sizing: border-box;
+}
+ 
+@media (max-width: 768px) {
+  .content nav {
+    margin-right: 0;
+  }
+}
+ 

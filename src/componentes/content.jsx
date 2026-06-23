@@ -1,13 +1,27 @@
-import './Content.css'
+import './contenido.css';
+import Hero from './tittle.jsx';
+import ThreeCard from './ThreeCard.jsx';
+import AboutMe from './AboutMe.jsx';
+import SocialLinks from './SocialLinks.jsx';
+import SimpleList from './SimpleList.jsx';
 
 function Content() {
   return (
     <main className="content">
-      <h1>Hola como estas</h1>
+      <Hero />
+      <ThreeCard />
 
-      <nav >
-        /* future post */
-      </nav>
+      <div id="sobre-mi">
+        <AboutMe />
+      </div>
+
+      <div id="lenguajes">
+        <SimpleList />
+      </div>
+
+      <div id="contacto">
+        <SocialLinks />
+      </div>
     </main>
   );
 }

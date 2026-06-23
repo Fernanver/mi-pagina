@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+.hero-section {
+  width: calc(100% - 260px);
+  padding: 40px 40px 30px;
+  box-sizing: border-box;
+}
+
+.hero-section h1 {
+  display: block;
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin: 0;
+  padding: 16px 28px;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  width: calc(100% - 60px);
+  
+  font-family: "UnifrakturCook", serif;
+  letter-spacing: 1px;
+  font-weight: 700; 
+  text-align: center;/* llega casi hasta el sidebar con un respiro */
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    width: 100%;
+    padding: 30px 16px 20px;
+  }
+  .hero-section h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+}
