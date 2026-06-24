@@ -28,6 +28,26 @@ function Hero() {
         <li>Desarrollo web.</li>
       </ul>
 
+      <h3>Profesores/Cursos</h3>
+      <ul>
+        <li>Fundamentos de Programación: Kelly Vizconde La Motta</li>
+        <li>Fundamentos Matemáticos para Computación: Andrea Meliza Obando Rosas</li>
+        <li>Introducción a Computación: Ernesto Cuadros Vargas </li>
+        <li>Comunicación: Lourdes Velarde Ortiz </li>
+        <li>Introducción a la vida Universitaria: Pierina Pacheco Leyton</li>
+        <li>Lógica: SOLANGE XIMENA TEJADA CUADROS</li>
+      </ul>
+
+      <h3>Compañeros</h3>
+      <ul>
+        <li><a href="https://web-alexwont.vercel.app/" target="_blank" rel="noreferrer">Alex</a></li>
+        <li><a href="https://faro-m.github.io/Pagina-Web-UCSP/" target="_blank" rel="noreferrer">Farid</a></li>
+        <li><a href="https://franmnm.github.io/" target="_blank" rel="noreferrer">Franco</a></li>
+
+      </ul>
+
+
+
       <h3>"No necesitas una suite de gigabytes para hacer algo hermoso en una computadora."</h3>
       <h4>-Terry A. Davis</h4>
 
